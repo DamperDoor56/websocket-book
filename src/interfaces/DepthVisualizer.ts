@@ -1,4 +1,4 @@
-import { OrderType } from "../OrderBook";
+import { OrderType } from "../interfaces/OrderBook";
 
 export interface DepthVisualizerProps {
     depth: number;
