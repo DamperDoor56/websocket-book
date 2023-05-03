@@ -3,10 +3,7 @@ import React, { ChangeEvent, FunctionComponent } from 'react';
 import { Container } from "./Container";
 import { useAppDispatch, useAppSelector } from "../../hooks";
 import { selectGrouping, setGrouping } from "../OrderBook/orderbookSlice";
-
-interface GroupingSelectBoxProps {
-  options: number[]
-}
+import { GroupingSelectBoxProps } from '../../interfaces/GroupingSelectBox';
 
 export const GroupingSelectBox: FunctionComponent<GroupingSelectBoxProps> = ({options}) => {
   const groupingSize: number = useAppSelector(selectGrouping);
