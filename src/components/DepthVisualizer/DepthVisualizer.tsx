@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 
 import { MOBILE_WIDTH } from "../../constants";
-import { OrderType } from "../OrderBook";
+import { OrderType } from "../../interfaces/OrderBook";
 import { DepthVisualizerColors, DepthVisualizerProps } from '../../interfaces/DepthVisualizer';
 
 const DepthVisualizer: FunctionComponent<DepthVisualizerProps> = ({windowWidth, depth, orderType }) => {

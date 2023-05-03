@@ -2,7 +2,7 @@ import React from 'react';
 
 import { render, screen } from '@testing-library/react';
 import DepthVisualizer from './DepthVisualizer';
-import { OrderType } from "../OrderBook";
+import { OrderType } from "../../interfaces/OrderBook";
 
 test('renders depth visualizer with certain width and color', () => {
   render(<DepthVisualizer depth={33} windowWidth={800} orderType={OrderType.BIDS} />);
