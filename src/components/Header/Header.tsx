@@ -2,10 +2,7 @@ import React, { FunctionComponent } from 'react';
 
 import { Container } from "./styles";
 import GroupingSelectBox from "../GroupingSelectBox/GroupingSelectBox";
-
-interface HeaderProps {
-  options: number[];
-}
+import { HeaderProps } from '../../interfaces/Header';
 
 const Header: FunctionComponent<HeaderProps> = ({options}) => {
   return (
